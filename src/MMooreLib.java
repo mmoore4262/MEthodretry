@@ -42,7 +42,7 @@ public class MMooreLib {
                         gcf=i;
                     }
                     int quotient=num1/gcf;
-                    int lcm=quotient*num2;
+                     lcm=quotient*num2;
                 }
             }
             if (num2==num1)
@@ -73,10 +73,7 @@ public class MMooreLib {
                 int quotient2=num3/gcf;
                 return(quotient2*lcm);
             }
-            if (num3==lcm)
-            {
-                return(num3);
-            }
+            return (lcm);
         }
 
         public static String dateStr(String str)
@@ -149,6 +146,6 @@ public class MMooreLib {
 
     }
 
-}
 
-}
+
+
